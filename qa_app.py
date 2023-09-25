@@ -178,7 +178,7 @@ def main():
     unsafe_allow_html=True,
         )
     
-    st.sidebar.title("Welcom to My GPT")
+    st.sidebar.title("Welcom to Quran GPT")
     
     embedding_option = st.sidebar.radio(
         "Choose Embeddings", ["OpenAI Embeddings"])
@@ -190,7 +190,7 @@ def main():
 
     if 'openai_api_key' not in st.session_state:
         openai_api_key = st.text_input(
-            'Please enter your OpenAI API key or [get one here](https://platform.openai.com/account/api-keys)', value="", placeholder="Enter the OpenAI API key which begins with sk-")
+            'Please enter your OpenAI API key or [get one here](https://platform.openai.com/account/api-keys)', value="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")
         if openai_api_key:
             st.session_state.openai_api_key = openai_api_key
             os.environ["OPENAI_API_KEY"] = openai_api_key
