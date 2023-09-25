@@ -169,7 +169,7 @@ def main():
         unsafe_allow_html=True,
     )
     # st.sidebar.image("img/logo1.png")
-    st.sidebar.image("img/learn-quran-logo.webp")
+    st.sidebar.image("img/logo.png")
    
     st.write(
     f"""
