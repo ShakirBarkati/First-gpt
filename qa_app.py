@@ -178,7 +178,7 @@ def main():
     unsafe_allow_html=True,
         )
     
-    st.sidebar.title("Menu")
+    st.sidebar.title("Welcom to My GPT")
     
     embedding_option = st.sidebar.radio(
         "Choose Embeddings", ["OpenAI Embeddings"])
