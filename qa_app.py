@@ -173,7 +173,7 @@ def main():
    
     st.write(
     f"""
-    <div style="display: flex; align-items: center; margin-left: 0;">
+    <div style="display: flex; align-items: center; margin-left: 0; width: 180px;  margin:-11px 32%; margin-top:-34px;  " >
     </div>
     """,
     unsafe_allow_html=True,
