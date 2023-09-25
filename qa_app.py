@@ -191,7 +191,7 @@ def main():
 
     if 'openai_api_key' not in st.session_state:
         openai_api_key = st.text_input(
-            'Please enter your OpenAI API key or [get one here](https://platform.openai.com/account/api-keys)', value="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")
+            'Please enter your OpenAI API key or [get one here](https://platform.openai.com/account/api-keys)', value="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")
         if openai_api_key:
             st.session_state.openai_api_key = openai_api_key
             os.environ["OPENAI_API_KEY"] = openai_api_key
