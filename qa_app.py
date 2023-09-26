@@ -180,6 +180,9 @@ def main():
         )
     
     st.sidebar.title("Welcom to Quran GPT")
+    st.sidebar.write("Explore the depths of the Quran with Learn Quran GPT, a groundbreaking tool designed to facilitate a profound understanding of the sacred text. Immerse yourself in its verses, uncovering the timeless wisdom and spiritual guidance it holds")
+    st.sidebar.write("With Learn Quran GPT, embark on a transformative journey of knowledge and enlightenment. Gain fresh perspectives, engage in meaningful discussions, and deepen your connection with this revered scripture. Whether seeking clarification or seeking inspiration, let Learn Quran GPT be your guiding light.")
+
     
     # embedding_option = st.sidebar.radio(
     #     "Choose Embeddings", ["OpenAI Embeddings"])
