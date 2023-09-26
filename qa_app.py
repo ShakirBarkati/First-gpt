@@ -184,10 +184,10 @@ def main():
     st.sidebar.write("Embark on a journey of enlightenment with Learn Quran GPT. 🚀 Gain new perspectives, engage in meaningful discussions, and deepen your connection with this revered scripture. 🌟 Let Learn Quran GPT be your guiding light, whether you seek clarification or inspiration. 🔦")
 
     
-    # embedding_option = st.sidebar.radio(
-    #     "Choose Embeddings", ["OpenAI Embeddings"])
-    # retriever_type = st.sidebar.selectbox(
-    #     "Choose Retriever", ["SIMILARITY SEARCH", "SUPPORT VECTOR MACHINES"])
+    embedding_option = st.sidebar.radio(
+        "Choose Embeddings", ["OpenAI Embeddings"])
+    retriever_type = st.sidebar.selectbox(
+        "Choose Retriever", ["SIMILARITY SEARCH", "SUPPORT VECTOR MACHINES"])
 
     # Use RecursiveCharacterTextSplitter as the default and only text splitter
     splitter_type = "RecursiveCharacterTextSplitter"
